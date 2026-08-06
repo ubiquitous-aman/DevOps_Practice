@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Aman Kumar",
+        "mobile": "9876543210",
+        "email": "incel.user@hotmail.com",
+        "branch": "CSE",
+        "password": "Aman@utk"
+    },
+    {
+        "name": "Shekhar Saini",
+        "mobile": "8765432109",
+        "email": "evil.love@gmail.com",
+        "branch": "CSE",
+        "password": "MechUser99"
+    },
+    {
+        "name": "Hitesh Sharma",
+        "mobile": "7654321098",
+        "email": "hitku@tech.org",
+        "branch": "ECE",
+        "password": "VoltAge456"
+    },
+    {
+        "name": "Hanuman Choudhary",
+        "mobile": "6543210987",
+        "email": "hanu64384@gmail.com",
+        "branch": "IT",
+        "password": "Bhaw7389"
+    },
+    {
+        "name": "Priyanjal Saini",
+        "mobile": "5432109876",
+        "email": "Dread.phoenix@reddifmail.com",
+        "branch": "CSE",
+        "password": "Priya7287"
+    }
+]
