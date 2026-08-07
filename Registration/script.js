@@ -44,6 +44,6 @@ document.getElementById('registrationForm').addEventListener('submit', function 
     errorMessage.style.color = "green";
     errorMessage.textContent = "Registration Successful!";
 
-    // Optional: Reset form after success
-    // this.reset();
+    // Reset form after success
+    this.reset();
 });
