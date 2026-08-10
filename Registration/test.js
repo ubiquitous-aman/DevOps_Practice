@@ -94,5 +94,5 @@ if (passed) {
 }
 else {
     console.log("TC-10 : !! Registration Failed !!");
-    passed = false;
+    process.exit(1);
 }
