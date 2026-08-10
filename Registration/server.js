@@ -46,7 +46,7 @@ function serveStaticFile(request, response) {
     let filePath;
 
     if (request.url === "/") {
-        filePath = path.join(__dirname, "index.html");
+        filePath = path.join(__dirname, "index11.html");
     } else {
         filePath = path.join(__dirname, request.url);
     }
