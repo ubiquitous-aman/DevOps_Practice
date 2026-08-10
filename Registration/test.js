@@ -22,19 +22,19 @@ else {
 
 // TC - 03
 if (fs.existsSync("script.js")) {
-    console.log("TC-04: script.js exists: PASS");
+    console.log("TC-03: script.js exists: PASS");
 }
 else {
-    console.log("TC-04: script.js exists: FAIL");
+    console.log("TC-03: script.js exists: FAIL");
     passed = false;
 }
 
 // TC - 04
 if (fs.existsSync("student.json")) {
-    console.log("TC - 04: student.json exists: PASS");
+    console.log("TC-04: student.json exists: PASS");
 }
 else {
-    console.log("TC - 04: students.json exists : FAIL");
+    console.log("TC-04: students.json exists : FAIL");
     passed = false;
 }
 //Read JSON
@@ -90,5 +90,9 @@ else {
 if (passed) {
     console.log("TC-10:Registration successful:PASS");
     console.log("\nBuild SUCCESS");
-    process.exit();
+    process.exit(0);
+}
+else {
+    console.log("TC-10 : !! Registration Failed !!");
+    passed = false;
 }
